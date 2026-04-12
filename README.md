@@ -37,7 +37,7 @@ Where:
 * `<variant>`: can be `debug`, `development`, `release`, `profile` and configures compilation flags and asserts throughout kernel code.
 * `<arch>`: can be valid arch to build for. (E.g. `X86_64`)
 
-To build a kernel for the same architecture as running OS, just type
+To build a kernel for the same architecture as the currently-running OS, just type:
 
 ```text
 make SDKROOT=macosx.internal
